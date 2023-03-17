@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+.coin {
+    background-color: #aaa;
+    display: inline-block;
+    height: 30px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.3);
+  }
+  
+  .coin.large {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 0px 2px rgba(0,0,0,0.3);
+  }
+  
+  .clickable, button {
+    cursor: pointer;
+  }
+  .inserted-coins {
+    margin-top: 20px;
+    
+  }  
+  .display {
+    border-style:solid;
+    margin: 10px;
+    font-size: 18px;
+    height: 80px;
+    background-color: aqua;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .coinRefundbox {
+    min-height: 40px;
+    margin:10px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightgray;
+  }
