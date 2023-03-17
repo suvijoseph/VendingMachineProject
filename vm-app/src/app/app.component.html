@@ -351,7 +351,7 @@
         <ng-container *ngFor="let item of productlist; let i=index;">
           <tr *ngIf="i % 4 == 0">
               <ng-container *ngFor="let pos of [0, 1, 2, 3]">
-                  <td *ngIf="i+pos < productlist.length" class="text-center"><img src="http://localhost:58989/Content/Images/{{productlist[i+pos].Image}}" width="150"><br/>{{productlist[i+pos].Name}}<br/><b>Stock:{{productlist[i+pos].Qty}}</b><br/>Rs.{{productlist[i+pos].Price}}<br/><button (click)="BuyItem(productlist[i+pos].Id)">Buy</button></td>
+                  <td *ngIf="i+pos < productlist.length" class="text-center"><img src="{{producturl}}/{{productlist[i+pos].Image}}" width="150"><br/>{{productlist[i+pos].Name}}<br/><b>Stock:{{productlist[i+pos].Qty}}</b><br/>Rs.{{productlist[i+pos].Price}}<br/><button (click)="BuyItem(productlist[i+pos].Id)">Buy</button></td>
               </ng-container>
           </tr>
       </ng-container>

@@ -16,6 +16,7 @@ export class AppComponent {
       
     })
   }
+  producturl = "http://localhost:58989/Content/Images";
   displaymsg = "";
   credit = 0;
   coinReturnCount = 0;
