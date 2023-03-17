@@ -23,7 +23,7 @@ Note: if the port is different for you then you need to update the url in “\vm
 <h3>Sample Data</h3><br/>
 In this project, there are total of 15 number of products with 8 different items are used. The sample json file is attached in \vm-app\product.json, which is same we get from the api. <br/>
 <h3>Screen shot</h3>
-The screenshot of the Vending Machine web page is attached below:<br/>
+The screenshot of the Vending Machine web page is in screenshot.png file<br/>
  
 <h3>Workflow</h3><br/>
 The Vending Machine will work in this way:<br/>
